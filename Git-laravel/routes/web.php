@@ -10,3 +10,7 @@ Route::get('/', function () {
 Route::get('/create', function () {
     return view('create');
 });
+
+Route::get('/kars', function () {
+    return view('kars');
+});
