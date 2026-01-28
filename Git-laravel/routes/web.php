@@ -14,3 +14,7 @@ Route::get('/create', function () {
 Route::get('/kars', function () {
     return view('kars');
 });
+
+Route::get('/kamesh', function () {
+    return view('kamesh');
+});
